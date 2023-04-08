@@ -421,7 +421,11 @@ nav .fas{
         padding: 14px 30px;
     }
     .btn2{
-        
+        margin-top: -10px;
+        margin-left: 5px;
+        padding: 10px 20px;
+        border: none;
+        background-color: #08080800;        
     }
 }
 .swiper{
