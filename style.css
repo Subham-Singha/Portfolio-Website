@@ -73,7 +73,7 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #ff9100;
 }
-.btn2{
+.btn3{
     display: inline-block;
     margin: 20px auto;
     width: fit-content;
@@ -420,7 +420,7 @@ nav .fas{
     .btn{
         padding: 14px 30px;
     }
-    .btn2{
+    .btn3{
         margin-top: -10px;
         margin-left: 5px;
         padding: 10px 20px;
