@@ -324,6 +324,13 @@ form .btn2{
 nav .fas{
     display: none;
 }
+#footer span{
+    color: #ff9100;
+}
+#footer a{
+    text-decoration: none;
+    color: #e0a557;
+}
 
 /* ----for smaller screen---- */
 
