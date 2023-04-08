@@ -6,10 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <title>Portfolio</title>
     <script src="https://kit.fontawesome.com/274caf772a.js" crossorigin="anonymous"></script>
 </head>
@@ -25,10 +22,10 @@
                     <li><a href="#portfolio">works</a></li>
                     <li><a href="#tesimonials">Testimonials</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <button class="btn btn21">Sign In</button>
+                    <button class="btn2">Sign In</button>
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
-                <i class="fas fa-bars" onclick="openmenu()"></i>
+                <i class="fas fa-bars" id="bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Yogi, Mystic, Author</p>
@@ -100,7 +97,7 @@
                     <div class="swiper-button-next"></div>
                   </div>
             </div>
-            <a href="https://isha.sadhguru.org/in/en" class="btn">See more</a>
+            <a href="#" class="btn">See more</a>
         </div>
     </div>
 
@@ -129,7 +126,7 @@
             </div>
         </div>
     </div>
-    <br>
+    <!-- <br> -->
     <div id="contact">
         <div class="container">
             <div class="row">
@@ -179,13 +176,16 @@
     </script>
     <script>
         var sidemenu = document.getElementById("sidemenu");
+        var bars = document.getElementById("bars");
 
         function openmenu() {
             sidemenu.style.right = "0";
+            bars.style.opacity = "0";
         }
 
         function closemenu() {
             sidemenu.style.right = "-200px";
+            bars.style.opacity = "1";
         }
     </script>
     <script>
